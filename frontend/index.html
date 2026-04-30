@@ -3,24 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InnoExpoGL AI Innovation Hub</title>
+    <meta name="description" content="InnoExpoGL - Showcase Innovations">
+    <link rel="stylesheet" href="styles.css">
+    <title>InnoExpoGL</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to the InnoExpoGL AI Innovation Hub</h1>
-    </header>
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>Your one-stop destination for innovation in AI technologies.</p>
-        </section>
-        <section>
-            <h2>Contact</h2>
-            <p>Contact us at info@innoexpogl.com</p>
-        </section>
-    </main>
+    <nav>
+        <h1>InnoExpoGL</h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#submit">Submit Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h2>Innovate, Inspire, Impact</h2>
+        <p>Welcome to InnoExpoGL</p>
+    </section>
+    <section class="features">
+        <h3>Features</h3>
+        <div class="grid">
+            <div class="feature-item">Feature 1</div>
+            <div class="feature-item">Feature 2</div>
+            <div class="feature-item">Feature 3</div>
+        </div>
+    </section>
+    <section id="projects">
+        <h3>Our Projects</h3>
+        <div class="project-item">Project 1</div>
+        <div class="project-item">Project 2</div>
+    </section>
+    <section id="submit">
+        <h3>Submit Your Project</h3>
+        <form action="https://formspree.io/f/yourFormId" method="POST">
+            <input type="text" name="projectTitle" placeholder="Project Title" required>
+            <textarea name="projectDescription" placeholder="Project Description" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section id="about">
+        <h3>About Us</h3>
+        <p>Information about InnoExpoGL.</p>
+    </section>
+    <section id="contact">
+        <h3>Contact Us</h3>
+        <p>Email: example@example.com</p>
+    </section>
     <footer>
-        <p>&copy; 2026 InnoExpoGL. All rights reserved.</p>
+        <p>&copy; 2026 InnoExpoGL</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
